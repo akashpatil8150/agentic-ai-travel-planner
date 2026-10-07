@@ -1,0 +1,109 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# =========================
+# Virtual Environment
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# =========================
+# Build / Distribution
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Temporary files
+# =========================
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# =========================
+# Local database / data
+# =========================
+*.sqlite
+*.sqlite3
+*.db
+
+# =========================
+# Generated / Cache data
+# =========================
+.cache/
+cache/
+*.cache
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/secrets.toml
+
+# =========================
+# Node (if frontend tooling is added later)
+# =========================
+node_modules/
+
+# =========================
+# Local development files
+# =========================
+*.pid
+*.pid.lock
+
+# =========================
+# Generated reports
+# =========================
+reports/
